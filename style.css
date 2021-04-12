@@ -31,7 +31,6 @@ main {
   border-top: 8px solid grey;
 }
 
-
 .max-width-wrapper {
   max-width: 580;
   margin: auto;
@@ -43,29 +42,38 @@ main {
   padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
+  max-width: 450px;
 }
 
 .intro-chunk strong {
   color: hsl(160deg, 100%, 30%);
 }
 
+.intro-chunk p {
+  font-size: 1.5rem;
+}
+
+.title {
+  margin-bottom: 64px;
+}
+
 
 .card {
+  /* max-width: 100%; */
   background-color: white;
   padding: 4px 16px;
   margin-top: 64px;
   border-bottom: 8px solid grey;
 }
 
-
 .indented-heading {
-  width: 400px;
+  max-width: 450px;
 
   padding: 8px;
   padding-left: 32px;
+  padding-right: 64px;
   margin: 0px;
   margin-left: -32px;
-
 
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
